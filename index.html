@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tv-Maze</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <form id="form">
+        <input type="text" placeholder="Search" class="search" id="searchBar" />
+        <span id="displayNum"></span>
+      </form>
+      <h1><a href="#"> The Sopranos Guide</a></h1>
+
+      <label for="" class="custom-select">
+        <select name="" id="select">
+          <!-- <option value="">All Shows</option> -->
+        </select>
+      </label>
+    </header>
+
+    <main class="main">
+      <div class="movie card">
+        <img
+          src="https://akns-images.eonline.com/eol_images/Entire_Site/2018112/rs_634x939-181202195654-634.captain-marvel.12418.jpg?fit=around%7C634:939&output-quality=90&crop=634:939;center,top"
+          alt=""
+        />
+
+        <div class="movie-info">
+          <h3>Movie Title</h3>
+          <span class="green">9.8</span>
+        </div>
+
+        <div class="overview">
+          <span>Season:</span>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat
+          iusto a vel distinctio porro. Tenetur ab commodi quaerat illum quidem.
+        </div>
+      </div>
+      <!-- <div class="movie card"> -->
+      <!-- <img
+        src="${showsInfo.image.medium}"
+        alt="${showsInfo.name}"
+        />
+        <div class="flexES">
+        <span class="seasonNum">S0${showsInfo.season}</span>
+        <span class="episodeNum">E0${showsInfo.number}</span>
+        </div>
+        <div class="movie-info">
+       <h3 class="h3">${showsInfo.name}</h1>
+       <span class="${getColor(showsInfo.rating.average)}">${
+        showsInfo.rating.average
+      }</span>
+   
+       </div>
+   
+       <div class="overview">
+   
+       ${showsInfo.summary}
+       </div> -->
+    </main>
+    <footer class="footer-content">
+      <p>Data Provided by <a href="http://tvmaze.com/">TvMaze</a></p>
+      <p>Site by Mohammad-Reza Tagipour</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
